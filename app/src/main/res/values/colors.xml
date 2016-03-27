@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Material Design Color palletes
+        https://www.google.com/design/spec/style/color.html#color-color-palette-->
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorOrange">#FFAB40</color>
+    <color name="bk_color">#E3F2FD</color>
+</resources>

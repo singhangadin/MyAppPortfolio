@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_shadow"
+    tools:context="com.example.myappportfolio.MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:id="@+id/textView"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:text="@string/spotstreamer"
+        style="@style/OrangeButton"
+        android:id="@+id/spotstreame"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:text="@string/scoresapp"
+        style="@style/OrangeButton"
+        android:id="@+id/scoresap"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:text="@string/libraryapp"
+        style="@style/OrangeButton"
+        android:id="@+id/libraryap"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:text="@string/builditbigger"
+        style="@style/OrangeButton"
+        android:id="@+id/builditbig"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:text="@string/xyzreader"
+        style="@style/OrangeButton"
+        android:id="@+id/xyzread"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/capston"
+        style="@style/PinkButton"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
